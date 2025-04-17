@@ -1,0 +1,242 @@
+
+> Configure project :
+Fabric Loom: 1.10.5
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :compileClientJava UP-TO-DATE
+> Task :processClientResources UP-TO-DATE
+> Task :clientClasses UP-TO-DATE
+> Task :generateLog4jConfig UP-TO-DATE
+> Task :generateRemapClasspath UP-TO-DATE
+> Task :generateDLIConfig UP-TO-DATE
+> Task :configureLaunch UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :configureClientLaunch UP-TO-DATE
+
+> Task :runClient
+[13:35:20] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[13:35:20] [main/INFO] (FabricLoader) Loading 55 mods:
+	- fabric-api 0.119.5+1.21.5
+	- fabric-api-base 0.4.62+73a52b4b07
+	- fabric-api-lookup-api-v1 1.6.95+86c3a9f107
+	- fabric-biome-api-v1 16.0.7+2dd063df07
+	- fabric-block-api-v1 1.0.37+86c3a9f107
+	- fabric-block-view-api-v2 1.0.26+aa6d566c07
+	- fabric-blockrenderlayer-v1 2.0.16+86c3a9f107
+	- fabric-client-gametest-api-v1 4.1.10+f3ffa98907
+	- fabric-client-tags-api-v1 1.1.37+86c3a9f107
+	- fabric-command-api-v1 1.2.70+f71b366f07
+	- fabric-command-api-v2 2.2.49+73a52b4b07
+	- fabric-commands-v0 0.2.87+df3654b307
+	- fabric-content-registries-v0 10.0.11+216530c807
+	- fabric-convention-tags-v1 2.1.27+7f945d5b07
+	- fabric-convention-tags-v2 2.14.1+277f99c707
+	- fabric-crash-report-info-v1 0.3.12+86c3a9f107
+	- fabric-data-attachment-api-v1 1.6.6+7b20cbb007
+	- fabric-data-generation-api-v1 22.3.1+d94614b807
+	- fabric-dimensions-v1 4.0.16+86c3a9f107
+	- fabric-entity-events-v1 2.0.25+27c1078f07
+	- fabric-events-interaction-v0 4.0.13+73a52b4b07
+	- fabric-game-rule-api-v1 1.0.70+c327076a07
+	- fabric-gametest-api-v1 3.1.1+7b20cbb007
+	- fabric-item-api-v1 11.3.1+eeb42f0207
+	- fabric-item-group-api-v1 4.2.8+3459fc6107
+	- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	- fabric-keybindings-v0 0.2.61+df3654b307
+	- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	- fabric-loot-api-v2 3.0.47+3f89f5a507
+	- fabric-loot-api-v3 1.0.35+86c3a9f107
+	- fabric-message-api-v1 6.0.33+86c3a9f107
+	- fabric-model-loading-api-v1 5.0.2+55bce67a07
+	- fabric-networking-api-v1 4.4.0+f3ffa98907
+	- fabric-object-builder-api-v1 21.0.0+7b20cbb007
+	- fabric-particles-v1 4.0.22+86c3a9f107
+	- fabric-recipe-api-v1 8.1.6+052a85d007
+	- fabric-registry-sync-v0 6.1.20+b556383207
+	- fabric-renderer-api-v1 6.0.0+55bce67a07
+	- fabric-renderer-indigo 3.0.0+55bce67a07
+	- fabric-rendering-data-attachment-v1 0.3.64+73761d2e07
+	- fabric-rendering-fluids-v1 3.1.27+86c3a9f107
+	- fabric-rendering-v1 11.1.11+081cc04307
+	- fabric-resource-conditions-api-v1 5.0.21+73a52b4b07
+	- fabric-resource-loader-v0 3.1.6+02ca679607
+	- fabric-screen-api-v1 2.0.46+86c3a9f107
+	- fabric-screen-handler-api-v1 1.3.127+c327076a07
+	- fabric-sound-api-v1 1.0.38+86c3a9f107
+	- fabric-tag-api-v1 1.0.16+ecf51cdc07
+	- fabric-transfer-api-v1 5.4.23+7b20cbb007
+	- fabric-transitive-access-wideners-v1 6.3.17+f17a180c07
+	- fabricloader 0.16.10
+	- java 21
+	- minecraft 1.21.5
+	- mixinextras 0.4.1
+	- modid 1.0.0
+[13:35:20] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/dan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[13:35:20] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[13:35:20] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[13:35:20] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:35:21] [main/WARN] (LinuxOperatingSystem) Did not find udev library in operating system. Some features may not work.
+[13:35:21] [Datafixer Bootstrap/INFO] (Minecraft) 263 Datafixer optimizations took 586 milliseconds
+[13:35:23] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:35:23] [Render thread/INFO] (Minecraft) Setting user: Player584
+[13:35:23] [Render thread/INFO] (modid) Hello Fabric world!
+[13:35:23] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[13:35:23] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[13:35:23] [Render thread/WARN] (Minecraft) Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[13:35:23] [Render thread/WARN] (Minecraft) Failed to get system info for Render Extensions
+java.lang.IllegalStateException: Can't getDevice() before it was initialized
+	at knot/com.mojang.blaze3d.systems.RenderSystem.getDevice(RenderSystem.java:451) ~[minecraft-clientOnly-5e5bca9d97-1.21.5-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.method_68671(MinecraftClient.java:2432) ~[minecraft-clientOnly-5e5bca9d97-1.21.5-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.jar:?]
+	at knot/net.minecraft.util.SystemDetails.addSection(SystemDetails.java:70) [minecraft-common-5e5bca9d97-1.21.5-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.addSystemDetailsToCrashReport(MinecraftClient.java:2432) [minecraft-clientOnly-5e5bca9d97-1.21.5-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.addSystemDetailsToCrashReport(MinecraftClient.java:2402) [minecraft-clientOnly-5e5bca9d97-1.21.5-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.jar:?]
+	at knot/net.minecraft.client.main.Main.main(Main.java:258) [minecraft-clientOnly-5e5bca9d97-1.21.5-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2025-04-17 13:35:23
+Description: Initializing game
+
+java.lang.IllegalStateException: Failed to initialize GLFW, errors: GLFW error during init: [0x1000E]Failed to detect any supported platform
+	at knot//com.mojang.blaze3d.platform.GLX._initGlfw(GLX.java:63)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initBackendSystem(RenderSystem.java:246)
+	at knot//net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:499)
+	at knot//net.minecraft.client.main.Main.main(Main.java:249)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//com.mojang.blaze3d.platform.GLX._initGlfw(GLX.java:63)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initBackendSystem(RenderSystem.java:246)
+	at knot//net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:499)
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:249)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Linux (amd64) version 6.14.0
+	Java Version: 21.0.2, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 343005616 bytes (327 MiB) / 1174405120 bytes (1120 MiB) up to 8178892800 bytes (7800 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 9600X 6-Core Processor
+	Identifier: AuthenticAMD Family 26 Model 68 Stepping 0
+	Microarchitecture: unknown
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 49911.39
+	Virtual memory used (MiB): 10003.89
+	Swap memory total (MiB): 34315.30
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 362743.31, total: 903513.38
+	Space in storage for workdir (MiB): available: 362743.31, total: 903513.38
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		fabric-api: Fabric API 0.119.5+1.21.5
+		fabric-api-base: Fabric API Base 0.4.62+73a52b4b07
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.95+86c3a9f107
+		fabric-biome-api-v1: Fabric Biome API (v1) 16.0.7+2dd063df07
+		fabric-block-api-v1: Fabric Block API (v1) 1.0.37+86c3a9f107
+		fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.26+aa6d566c07
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 2.0.16+86c3a9f107
+		fabric-client-gametest-api-v1: Fabric Client Game Test API (v1) 4.1.10+f3ffa98907
+		fabric-client-tags-api-v1: Fabric Client Tags 1.1.37+86c3a9f107
+		fabric-command-api-v1: Fabric Command API (v1) 1.2.70+f71b366f07
+		fabric-command-api-v2: Fabric Command API (v2) 2.2.49+73a52b4b07
+		fabric-commands-v0: Fabric Commands (v0) 0.2.87+df3654b307
+		fabric-content-registries-v0: Fabric Content Registries (v0) 10.0.11+216530c807
+		fabric-convention-tags-v1: Fabric Convention Tags 2.1.27+7f945d5b07
+		fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.14.1+277f99c707
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.3.12+86c3a9f107
+		fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.6.6+7b20cbb007
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 22.3.1+d94614b807
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.16+86c3a9f107
+		fabric-entity-events-v1: Fabric Entity Events (v1) 2.0.25+27c1078f07
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 4.0.13+73a52b4b07
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.70+c327076a07
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 3.1.1+7b20cbb007
+		fabric-item-api-v1: Fabric Item API (v1) 11.3.1+eeb42f0207
+		fabric-item-group-api-v1: Fabric Item Group API (v1) 4.2.8+3459fc6107
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.63+ecf51cdc07
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.61+df3654b307
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.5.13+5cbce67307
+		fabric-loot-api-v2: Fabric Loot API (v2) 3.0.47+3f89f5a507
+		fabric-loot-api-v3: Fabric Loot API (v3) 1.0.35+86c3a9f107
+		fabric-message-api-v1: Fabric Message API (v1) 6.0.33+86c3a9f107
+		fabric-model-loading-api-v1: Fabric Model Loading API (v1) 5.0.2+55bce67a07
+		fabric-networking-api-v1: Fabric Networking API (v1) 4.4.0+f3ffa98907
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 21.0.0+7b20cbb007
+		fabric-particles-v1: Fabric Particles (v1) 4.0.22+86c3a9f107
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 8.1.6+052a85d007
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 6.1.20+b556383207
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 6.0.0+55bce67a07
+		fabric-renderer-indigo: Fabric Renderer - Indigo 3.0.0+55bce67a07
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.64+73761d2e07
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.27+86c3a9f107
+		fabric-rendering-v1: Fabric Rendering (v1) 11.1.11+081cc04307
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 5.0.21+73a52b4b07
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.1.6+02ca679607
+		fabric-screen-api-v1: Fabric Screen API (v1) 2.0.46+86c3a9f107
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.127+c327076a07
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.38+86c3a9f107
+		fabric-tag-api-v1: Fabric Tag API (v1) 1.0.16+ecf51cdc07
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.23+7b20cbb007
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.3.17+f17a180c07
+		fabricloader: Fabric Loader 0.16.10
+		java: OpenJDK 64-Bit Server VM 21
+		minecraft: Minecraft 1.21.5
+		mixinextras: MixinExtras 0.4.1
+		modid: Example mod 1.0.0
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: Unknown
+	Window size: <not initialized>
+	GFLW Platform: <error>
+	Render Extensions: ERR
+	GL debug messages: <no renderer available>
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_US
+	System encoding: UTF-8
+	File encoding: UTF-8
+	CPU: 12x AMD Ryzen 5 9600X 6-Core Processor
+#@!@# Game crashed! Crash report saved to: #@!@# /home/dan/dev/lang/java/minecraft/setHome/run/crash-reports/crash-2025-04-17_13.35.23-client.txt
+
+> Task :runClient FAILED
+9 actionable tasks: 1 executed, 8 up-to-date
